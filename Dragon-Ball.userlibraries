@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="analysis">
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/analysis/xml-apis.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/analysis/xercesImpl.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/analysis/xom.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/analysis/dom4j.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/analysis/xmlParserAPIs.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/analysis/jdom.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/analysis/asm.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/analysis/junit.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/analysis/xalan.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/analysis/icu4j.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/analysis/pmd.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/analysis/ant.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/analysis/jaxen.jar" />
+  </library>
+  <library name="libs">
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/ivy.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/ant-jar-1.8.3.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/asm-jar-5.0.1.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/oro-jar-2.0.8.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/junit-jar-4.11.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/jaxen-jar-1.1.4.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/jetty-jar-6.1.14.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/asm-tree-jar-5.0.1.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/asm-util-jar-5.0.1.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/ant-junit-jar-1.8.3.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/cobertura-jar-2.1.1.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/slf4j-api-jar-1.7.5.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/asm-commons-jar-5.0.1.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/hamcrest-core-jar-1.3.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/jetty-util-jar-6.1.14.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/mockito-all-jar-1.9.0.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/ant-launcher-jar-1.8.3.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/asm-analysis-jar-5.0.1.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/commons-lang3-jar-3.3.2.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/logback-core-jar-1.0.13.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/logback-classic-jar-1.0.13.jar" />
+    <archive path="/Users/marianoogimenez/Documents/Facu/ALGORITMOS 3/Dragon-Ball/libs/servlet-api-2.5-jar-6.1.14.jar" />
+  </library>
+</eclipse-userlibraries>
+

@@ -1,0 +1,252 @@
+.root{
+    -fx-font-size: 11px;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+
+}
+
+
+#contenedorPrincipal,
+#vistaInicial{
+     -fx-background-image: url("../imagenes/backgroundPrincipal.png");
+     -fx-background-size: cover;
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+
+}
+
+#vistaInicial{
+    -fx-min-width: 960;
+    -fx-min-height: 600;
+    -fx-padding: 200 300 ;
+}
+
+.casillero{
+        -fx-border-width: 1px;
+        -fx-border-color: white;
+        -fx-background-color: rgba(192,192,192,0.4);
+        -fx-pref-width: 40;
+        -fx-pref-height: 40;
+        -fx-min-height: 40;
+        -fx-min-width: 40;
+}
+
+.casillero:hover{
+    -fx-background-color: rgba(0,0,0,0.55);
+    -fx-cursor: hand;
+}
+
+.casillero:disabled{
+    -fx-background-color: transparent;
+}
+
+
+#tablero{
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-alignment: center;
+
+    -fx-border-insets: 33px 66px 66px 66px;
+    -fx-background-insets: 33px 66px 66px 66px;
+    -fx-padding: 33 66 66 66;
+}
+
+#barraDerecha{
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-pref-width: 183.0;
+    -fx-padding:0  0 0 8;
+    -fx-background-insets: 0px 0px 0px 8px;
+}
+
+
+#barraSuperior{
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-padding:66 66 0 66;
+    -fx-background-insets: 66px 66px 0px 66px;
+    -fx-alignment: center left;
+}
+
+
+.boton{
+    -fx-border-color: black;
+    -fx-padding: 13px;
+    -fx-text-fill: white;
+
+}
+
+#nombrePersonaje,
+#nombreEquipo{
+    -fx-min-width: 150px;
+    -fx-max-width: 150px;
+    -fx-font-family: arial;
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#pasar-turno{
+    -fx-padding: 12px;
+    -fx-text-fill: white;
+    -fx-pref-width: 130.0;
+    -fx-background-color: rgba(0, 0, 0, 0.55);
+    -fx-border-width: 1px;
+    -fx-border-color: black;
+    -fx-alignment: center;
+}
+
+.lifeBarContainer{
+    -fx-text-alignment: center;
+}
+
+.lifeBar{
+        -fx-max-height: 3px;
+        -fx-pref-height: 3px;
+        -fx-background-color: rgba(255,0,0,1);
+
+}
+
+
+#espacioVacioBarraDerecha{
+    -fx-pref-heigth: 200.0;
+    -fx-min-height: 200.0;
+}
+
+#pasar-turno:hover,
+.contenedor-aspecto:hover,
+.contenedorAtaque:hover,
+.contenedorAtaque:hover,
+.boton:hover{
+    -fx-background-color: rgba(0,0,0,0.7);
+}
+
+.button{
+    -fx-cursor: hand;
+}
+
+.imgPersonaje,
+.imgConsumible{
+        -fx-max-width: 40;
+        -fx-max-height: 30;
+        -fx-pref-width: 40;
+        -fx-pref-height: 30;
+        -fx-padding: 2px;
+}
+
+.containerAspecto,
+.contenedor-personaje,
+.contenedor-consumible,
+.contenedor-aspecto{
+    -fx-padding: 2px;
+    -fx-background-insets: 2px;
+    -fx-min-width: 30;
+    -fx-min-height: 30;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+}
+
+.casillero.enemigos-de-la-tierra{
+    -fx-background-color: #058802;
+}
+
+.casillero.enemigos-de-la-tierra:hover{
+    -fx-background-color: #044f02;
+}
+
+.casillero.guerreros-z{
+    -fx-background-color: #0151a0;
+}
+
+.casillero.guerreros-z:hover{
+    -fx-background-color: #022c56;
+}
+.ataque{
+    -fx-background-color: #830b02!important;
+}
+
+.texto{
+    -fx-padding: 50px;
+    -fx-line-height: 40px;
+}
+
+#barraSuperior{
+    -fx-min-height: 125px;
+    -fx-spacing: 15px;
+}
+
+#infoContainer{
+    -fx-max-width: 150px;
+    -fx-spacing: 10px;
+    -fx-padding: 80px 0 0 0;
+}
+
+
+#containerNombreEquipo{
+    -fx-min-heigth: 60px;
+    -fx-pref-height: 60px;
+}
+
+#containerNombrePersonaje{
+    -fx-min-width: 130px;
+    -fx-max-width: 130px;
+    -fx-padding: 0 40px 0 40px;
+    -fx-alignment: center left;
+}
+
+.containerCostoKi{
+    -fx-alignment: bottom-center;
+    -fx-hshrink: ALWAYS;
+    -fx-background-color: rgba(0,0,0,0.7);
+    -fx-font-size: 8px;
+    -fx-max-width: 14px;
+    -fx-min-width: 14px;
+    -fx-max-height: 55px;
+    -fx-min-height: 55px;
+     fx-padding: 45px 2px 2px 2px;
+    -fx-background-insets: 45px 0px 0px 0px;
+}
+
+ .contenedor-aspecto{
+    -fx-spacing: 0;
+    -fx-alignment: center;
+ }
+
+ #contenedorAtaques{
+    -fx-alignment: center-right;
+    -fx-spacing: 0;
+    -fx-max-height: 55px;
+    -fx-max-width: 190px;
+    -fx-min-width: 190px;
+ }
+
+.contenedorAtaque:active{
+    -fx-background-color: red;
+}
+ .contenedorAtaque{
+    -fx-alignment: bottom-center;
+    -fx-cursor: hand;
+    -fx-spacing: -43;
+    -fx-min-width: 85px;
+    -fx-max-width: 85px;
+    -fx-min-height: 55px;
+    -fx-max-height: 55px;
+    -fx-font-size: 10px;
+
+ }
+
+.seleccionado{
+      -fx-background-color: rgba(0,0,0,0.7);
+  }
+
+
+
+.contenedorAtaque > .containerCostoKi{
+    -fx-alignment: bottom-right;
+    -fx-background-color: rgba(0,0,0,0.7);
+    -fx-font-size: 8px;
+    -fx-max-width: 85px;
+    -fx-min-width: 85px;
+    -fx-max-height: 65px;
+    -fx-min-height: 65px;
+     fx-padding: 55px 2px 2px 0px;
+    -fx-background-insets: 55px 0px 0px 70px;
+}
+
